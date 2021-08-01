@@ -1,0 +1,137 @@
+body{
+    background: #ededed;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.image-container{
+    border-radius:15px ;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+.min-container{
+   min-width:970px ; 
+   width:100%;
+   max-width: 970px;
+   height: 92vh ;
+   background: #fff;
+   padding:24px;
+   box-sizing: border-box;
+}
+header{
+    display: flex;
+    border-radius:5px ;
+    border: 1px solid #eee;
+    padding: 24px;
+    background:cornflowerblue;
+
+}
+.candidate-image{
+    width: 150px;
+    height: 300px;
+    
+    box-sizing: border-box;
+}
+.primary-details-container{
+    width: 100%;
+    margin-left: 16px;
+    text-align:center ;
+}
+h3{
+    margin: 0px;
+    font-size: 22px;
+}
+h4{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 3000;
+}
+.contact details{
+    display:flex ;
+    justify-content: right;
+}
+.icon{
+    height: 18px;
+    width: 18px;
+    margin-right: 16px;
+}
+.body-container{
+    margin: 16px;
+    padding:24px ;
+    display: flex;
+    justify-content:space-between ;
+    height: 73%;
+}
+.skill-container{
+   flex-basis: 20%; 
+   border-radius: 5px;
+   background-color: #3c8dad;
+   display: wrap;
+}
+.content-container{
+    flex-basis: 76%;  
+    background: #dddddd;
+    border-radius:
+     5px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.footer-container{
+    flex-basis: 76%;  
+    background: #dddddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: auto;     
+}
+.section{
+    padding:16px ;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #3c8dad;
+
+}
+.section1{
+    padding:16px ;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #3c8dad;
+    
+}
+.heading{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2938B5F;
+}
+.sub-heading{
+    font-size: 12px;
+    font-weight: 400;
+    color: #2938B5F;
+}
+.body{
+    font-size: 12px;
+    font-weight: 300;
+    color: #2938B5F;
+
+}
+#skill-heading{
+    text-align: center;
+    margin: 16px 0px;
+
+}
+.skill{
+  display: flex;  
+}
+.skill-item{
+    margin-right: 4px;
+}
+.color{
+    color: #F5A962;
+}
+.strengths-container{
+    font-size: 13px;    
+}
